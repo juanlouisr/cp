@@ -7,4 +7,4 @@ Juan Louis Rombetasik
 ##  configure snippets
 1. In your project folder (File -> Preferences -> User Snippets -> cpp.json) 
 
-2. Change the contents of the `cpp.json` to the contents of [snippet-cpp-cp.json](snippet-cpp-cp.json) )
+2. Change the contents of the `cpp.json` to the contents of [snippet-cpp-cp.json](snippet-cpp-cp.json) 
