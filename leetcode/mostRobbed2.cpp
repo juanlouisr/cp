@@ -14,9 +14,11 @@ class Solution {
 public:
     int rob(vector<int>& nums) {
         vector<int> dp(size(nums), -1);
-        return func(nums, dp, size(nums)-1);
+        vector<int> dp2(size(nums), -1);
+        return max(func(vector<int>(nums.begin(), nums.end()-1), dp, size(nums)-2), 
+                    func(vector<int>(nums.begin()+1, nums.end()), dp2, size(nums)-2));
     }
-    int func(vector<int>& nums, vector<int>& dp,int m)
+    int func(vector<int> nums, vector<int>& dp,int m)
     {
         if (m<0)
             return 0;

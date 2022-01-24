@@ -45,25 +45,4 @@ vector<int> stringAnagram(vector<string> dictionary, vector<string> query) {
     return ans;
 }
 
-int main() 
-{
-    vector<string> dict({"heater",
-                        "cold",
-                        "clod",
-                        "reheat",
-                        "docl"});
-
-    vector<string> query({"codl",
-                        "heater",
-                        "abcd"});
-
-
-    auto ans = stringAnagram(dict, query);
-
-    for (auto i : ans)
-    {
-        cout << i << endl;
-    }
-
-    return 0;
-}
+z
