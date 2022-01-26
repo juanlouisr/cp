@@ -1,4 +1,4 @@
-# Raw - CP - My solutions (not everything is right)
+# Raw - CP - My solutions (not everything is accepted)
 Juan Louis Rombetasik
 
 13519075
