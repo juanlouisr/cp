@@ -41,6 +41,6 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    cout << Solution::romanToInt("CD") << endl;
+    cout << Solution::romanToInt("IX") << endl;
     return 0;
 }

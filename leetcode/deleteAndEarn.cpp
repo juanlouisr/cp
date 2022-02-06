@@ -14,22 +14,22 @@ class Solution {
 public:
     int deleteAndEarn(vector<int>& nums) {
         unordered_map<int, int> umap;
-        for (int i = 0; i < size(nums); i++)
-        {
-            auto get = umap.find(nums[i]);
-            if (get == umap.end())
-            {
-                umap.insert(nums[i], 1);
-            }
-            else
-            {
-                get->second++;
-            }
-        }
-        for (int i = 0; i < umap.size(); i++)
-        {
-            /* code */
-        }
+        // for (int i = 0; i < size(nums); i++)
+        // {
+        //     auto get = umap.find(nums[i]);
+        //     if (get == umap.end())
+        //     {
+        //         umap.insert(nums[i], 1);
+        //     }
+        //     else
+        //     {
+        //         get->second++;
+        //     }
+        // }
+        // for (int i = 0; i < umap.size(); i++)
+        // {
+        //     /* code */
+        // }
         
     }
     int max(vector<int> arr, int m)
@@ -38,10 +38,10 @@ public:
         {
             return -1000000007;
         }
-        if (m == 0)
-        {
-            return map.
-        }
+        // if (m == 0)
+        // {
+        //     return map.
+        // }
 
     }
 };
