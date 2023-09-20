@@ -44,5 +44,3 @@ vector<int> stringAnagram(vector<string> dictionary, vector<string> query) {
     }
     return ans;
 }
-
-z
